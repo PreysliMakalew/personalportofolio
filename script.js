@@ -1,7 +1,7 @@
 // tampilan login
-// let input = prompt("sapa nama katu?");
-// alert("OHHH DIRIMUU, baiklahbaiklah");
-// alert("ya nentau le si kalo kenall, cuma yaudahlah yaaa. lanjutt bos");
+let input = prompt("sapa nama katu?");
+alert("OHHH DIRIMUU, baiklahbaiklah");
+alert("ya nentau le si kalo kenall, cuma yaudahlah yaaa. lanjutt bos");
 // let password = prompt("etsss password duluu bosskuhh");
 
 // while (password !== "pcim") {
@@ -10,8 +10,8 @@
 // }
 // alert("nahh betull");
 
-// let aksesDoc = document.getElementById("input");
-// aksesDoc.innerHTML = `HHEELLOOWWW ${input}!!!`;
+let aksesDoc = document.getElementById("input");
+aksesDoc.innerHTML = `HHEELLOOWWW ${input}!!!`;
 
 
 

@@ -148,11 +148,18 @@ main {
 .menu-options i {
     font-size: 15px;
 }
+.menu-options a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.menu-options a:hover {
+    color: var(--highlighter-text);
+}
 
 .menu-options:hover {
     color: var(--highlighter-text);
 }
-
 
 
 /* SECTION-SETTINGS & BUTTONS*/
