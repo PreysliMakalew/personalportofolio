@@ -1019,7 +1019,6 @@ main {
     background-color: var(--color-main);
     color: var(--highlighter-text);
     transition: all 0.4s;
-    cursor: pointer;
     transform: translateY(-3px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
  }
