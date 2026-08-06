@@ -783,6 +783,7 @@ main {
 }
 .tt-cabdin1, .tt-cabdin2, .tt-sulut, .tt-popd, .tt-kejurda1, .tt-kejurda2, .tt-kejurda3, .tt-porprov, .tt-kejurnas1, .tt-kejurnas2 {
     display: flex;
+    text-align: center;
     align-items: center;
     align-content: center;
     flex-direction: column;
