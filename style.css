@@ -979,8 +979,6 @@ main {
   .tt-juara,
   .tt-pengada,
   .tt-year {
-    /* align-items: center;
-    justify-content: center; */
     text-align: center;
   }
 
@@ -996,6 +994,76 @@ main {
     padding: 15px;
   }
 
+
+  .details a:hover {
+    color: var(--color-main);
+    transition: all 0.4s;
+ }
+  .edu-sd:hover, .edu-smp:hover, .edu-sma:hover, .edu-uni:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+  .edu a:hover {
+    color: var(--color-main);
+    transition: all 0.4s;
+    transform: translateY(-3px);
+ }
+  .organization:hover, .additional:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+  .itws:hover, .iretel:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+  .o-exp a:hover {
+    color: var(--color-main);
+    transition: all 0.4s;
+    transform: translateY(-3px);
+ }
+  .w-piltws26:hover, .k1-piltws26:hover, .k2-piltws26:hover, .k-piltws25:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+  .aexp a:hover {
+    color: var(--color-main);
+    transition: all 0.4s;
+    transform: translateY(-3px);
+ }
+  .academic:hover, .non-academic:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+  .sdjuara2:hover, .smpjuara1:hover, .smajuara1:hover, .finaliskti:hover, .osnkkimia:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+  .pageant:hover, .tabletennis:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+  .retel1:hover, .retel2:hover, .tws:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+ .tt-cabdin1:hover, .tt-cabdin2:hover, .tt-sulut:hover, .tt-popd:hover, .tt-kejurda1:hover, .tt-kejurda2:hover, .tt-kejurda3:hover, .tt-porprov:hover, .tt-kejurnas1:hover, .tt-kejurnas2:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+  .tt-cabdin2 a, .tt-sulut a, .tt-popd a, .tt-kejurda2 a, .tt-kejurda3 a, .tt-porprov a, .tt-kejurnas1 a, .tt-kejurnas2 a{
+    color: var(--color-secondary);
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: center;
+ }
+ .tt-cabdin2 a:hover, .tt-sulut a:hover, .tt-popd a:hover, .tt-kejurda2 a:hover, .tt-kejurda3 a:hover, .tt-porprov a:hover, .tt-kejurnas1 a:hover, .tt-kejurnas2 a:hover {
+    color: var(--color-main);
+    transition: all 0.4s;
+    transform: translateY(-3px);
+}
+
+
+
   /* TOMBOL RETURN */
   .button {
     justify-content: center; 
@@ -1008,4 +1076,13 @@ main {
     padding: 8px 15px;
     font-size: 11px;
   }
+
+ .btn-back:hover {
+    background-color: var(--color-main);
+    color: var(--highlighter-text);
+    transition: all 0.4s;
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ }
 }
