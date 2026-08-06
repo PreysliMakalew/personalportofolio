@@ -995,74 +995,12 @@ main {
   }
 
 
-  .details a:active {
-    color: var(--color-main);
-    transition: all 0.4s;
+  /* EFEK AKTIF UNTUK SEMUA ELEMEN SAAT DIKLIK/DISENTUH */
+ *:active {
+  transform: scale(0.96) !important; /* Efek membal/meleset sedikit ke dalam */
+  opacity: 0.8 !important;            /* Efek sedikit redup saat ditekan */
+  transition: transform 0.1s ease, opacity 0.1s ease !important;
  }
-  .edu-sd:active, .edu-smp:active, .edu-sma:active, .edu-uni:active {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
- }
-  .edu a:active {
-    color: var(--color-main);
-    transition: all 0.4s;
-    transform: translateY(-3px);
- }
-  .organization:active, .additional:active {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
- }
-  .itws:active, .iretel:active {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
- }
-  .o-exp a:active {
-    color: var(--color-main);
-    transition: all 0.4s;
-    transform: translateY(-3px);
- }
-  .w-piltws26:active, .k1-piltws26:active, .k2-piltws26:active, .k-piltws25:active {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
- }
-  .aexp a:active {
-    color: var(--color-main);
-    transition: all 0.4s;
-    transform: translateY(-3px);
- }
-  .academic:active, .non-academic:active {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
- }
-  .sdjuara2:active, .smpjuara1:active, .smajuara1:active, .finaliskti:active, .osnkkimia:active {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
- }
-  .pageant:active, .tabletennis:active {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
- }
-  .retel1:active, .retel2:active, .tws:active {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
- }
- .tt-cabdin1:active, .tt-cabdin2:active, .tt-sulut:active, .tt-popd:active, .tt-kejurda1:active, .tt-kejurda2:active, .tt-kejurda3:active, .tt-porprov:active, .tt-kejurnas1:active, .tt-kejurnas2:active {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
- }
-  .tt-cabdin2 a, .tt-sulut a, .tt-popd a, .tt-kejurda2 a, .tt-kejurda3 a, .tt-porprov a, .tt-kejurnas1 a, .tt-kejurnas2 a{
-    color: var(--color-secondary);
-    text-decoration: none;
-    margin-bottom: 10px;
-    text-align: center;
- }
- .tt-cabdin2 a:active, .tt-sulut a:active, .tt-popd a:active, .tt-kejurda2 a:active, .tt-kejurda3 a:active, .tt-porprov a:active, .tt-kejurnas1 a:active, .tt-kejurnas2 a:active {
-    color: var(--color-main);
-    transition: all 0.4s;
-    transform: translateY(-3px);
-}
-
-
 
   /* TOMBOL RETURN */
   .button {
