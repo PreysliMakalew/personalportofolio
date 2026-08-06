@@ -950,7 +950,32 @@ main {
     width: 100%;
   }
 
-  
+  .school,
+  .school-year,
+  .school1,
+  .pengalaman,
+  .jabatan,
+  .pageant1,
+  .menjabat-year,
+  .pageant2,
+  .job,
+  .job-year,
+  .content-achieve,
+  .predikat,
+  .place,
+  .academic-year,
+  .content-nonacad,
+  .gelar,
+  .penyelenggara,
+  .gelar-year,
+  .tt-juara,
+  .tt-pengada,
+  .tt-year {
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+  }
+
   .edu-sd, .edu-smp, .edu-sma, .edu-uni,
   .organization, .additional, .itws, .iretel,
   .w-piltws26, .k1-piltws26, .k2-piltws26, .k-piltws25,
