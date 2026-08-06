@@ -995,58 +995,58 @@ main {
   }
 
 
-  .details a:hover {
+  .details a:active {
     color: var(--color-main);
     transition: all 0.4s;
  }
-  .edu-sd:hover, .edu-smp:hover, .edu-sma:hover, .edu-uni:hover {
+  .edu-sd:active, .edu-smp:active, .edu-sma:active, .edu-uni:active {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
  }
-  .edu a:hover {
-    color: var(--color-main);
-    transition: all 0.4s;
-    transform: translateY(-3px);
- }
-  .organization:hover, .additional:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
- }
-  .itws:hover, .iretel:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
- }
-  .o-exp a:hover {
+  .edu a:active {
     color: var(--color-main);
     transition: all 0.4s;
     transform: translateY(-3px);
  }
-  .w-piltws26:hover, .k1-piltws26:hover, .k2-piltws26:hover, .k-piltws25:hover {
+  .organization:active, .additional:active {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
  }
-  .aexp a:hover {
+  .itws:active, .iretel:active {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+  .o-exp a:active {
     color: var(--color-main);
     transition: all 0.4s;
     transform: translateY(-3px);
  }
-  .academic:hover, .non-academic:hover {
+  .w-piltws26:active, .k1-piltws26:active, .k2-piltws26:active, .k-piltws25:active {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
  }
-  .sdjuara2:hover, .smpjuara1:hover, .smajuara1:hover, .finaliskti:hover, .osnkkimia:hover {
+  .aexp a:active {
+    color: var(--color-main);
+    transition: all 0.4s;
+    transform: translateY(-3px);
+ }
+  .academic:active, .non-academic:active {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
  }
-  .pageant:hover, .tabletennis:hover {
+  .sdjuara2:active, .smpjuara1:active, .smajuara1:active, .finaliskti:active, .osnkkimia:active {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
  }
-  .retel1:hover, .retel2:hover, .tws:hover {
+  .pageant:active, .tabletennis:active {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
  }
- .tt-cabdin1:hover, .tt-cabdin2:hover, .tt-sulut:hover, .tt-popd:hover, .tt-kejurda1:hover, .tt-kejurda2:hover, .tt-kejurda3:hover, .tt-porprov:hover, .tt-kejurnas1:hover, .tt-kejurnas2:hover {
+  .retel1:active, .retel2:active, .tws:active {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+ .tt-cabdin1:active, .tt-cabdin2:active, .tt-sulut:active, .tt-popd:active, .tt-kejurda1:active, .tt-kejurda2:active, .tt-kejurda3:active, .tt-porprov:active, .tt-kejurnas1:active, .tt-kejurnas2:active {
     transform: translateY(-8px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
  }
@@ -1056,7 +1056,7 @@ main {
     margin-bottom: 10px;
     text-align: center;
  }
- .tt-cabdin2 a:hover, .tt-sulut a:hover, .tt-popd a:hover, .tt-kejurda2 a:hover, .tt-kejurda3 a:hover, .tt-porprov a:hover, .tt-kejurnas1 a:hover, .tt-kejurnas2 a:hover {
+ .tt-cabdin2 a:active, .tt-sulut a:active, .tt-popd a:active, .tt-kejurda2 a:active, .tt-kejurda3 a:active, .tt-porprov a:active, .tt-kejurnas1 a:active, .tt-kejurnas2 a:active {
     color: var(--color-main);
     transition: all 0.4s;
     transform: translateY(-3px);
@@ -1077,7 +1077,7 @@ main {
     font-size: 11px;
   }
 
- .btn-back:hover {
+ .btn-back:active {
     background-color: var(--color-main);
     color: var(--highlighter-text);
     transition: all 0.4s;
