@@ -1011,7 +1011,7 @@ main {
     max-width: 200px;
     padding: 8px 15px;
     font-size: 11px;
-    transition: all 0.1s ease !important; 
+    transition: all 0.3s ease !important; 
   }
 
   .btn-back:active {
