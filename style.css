@@ -999,7 +999,7 @@ main {
  *:active {
   transform: scale(0.96) !important; /* Efek membal/meleset sedikit ke dalam */
   opacity: 0.8 !important;            /* Efek sedikit redup saat ditekan */
-  transition: transform 0.4s ease, opacity 0.4s ease !important;
+  transition: transform 0.4s ease !important;
  }
 
   /* TOMBOL RETURN */
