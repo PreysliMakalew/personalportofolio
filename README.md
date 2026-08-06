@@ -19,4 +19,4 @@ Website portofolio interaktif yang menampilkan riwayat pendidikan, pengalaman, d
 3. Klik 2x pada file `index.html` untuk membuanya di browser.
 
 ## 👨‍💻 Penulis
-Dibuat oleh **[Nama Kamu]** - https://github.com/PreysliMakalew****
+Dibuat oleh **[Nama Kamu]** - https://github.com/PreysliMakalew
