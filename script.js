@@ -2,13 +2,13 @@
 let input = prompt("sapa nama katu?");
 alert("OHHH DIRIMUU, baiklahbaiklah");
 alert("ya nentau le si kalo kenall, cuma yaudahlah yaaa. lanjutt bos");
-// let password = prompt("etsss password duluu bosskuhh");
+let password = prompt("etsss password duluu bosskuhh");
 
-// while (password !== "pcim") {
-//     alert("password ddapa dimana ksiang ini weii, salah coii");
-//     password = prompt("password passwordd");
-// }
-// alert("nahh betull");
+while (password !== "pcim") {
+    alert("password ddapa dimana ksiang ini weii, salah coii");
+    password = prompt("password passwordd");
+}
+alert("nahh betull");
 
 let aksesDoc = document.getElementById("input");
 aksesDoc.innerHTML = `HHEELLOOWWW ${input}!!!`;
