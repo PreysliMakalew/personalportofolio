@@ -8,7 +8,7 @@ alert("ya nentau le si kalo kenall, cuma yaudahlah yaaa. lanjutt bos");
 //    alert("password ddapa dimana ksiang ini weii, salah coii");
 //    password = prompt("password passwordd");
 // }
-alert("nahh betull");
+// alert("nahh betull");
 
 let aksesDoc = document.getElementById("input");
 aksesDoc.innerHTML = `HHEELLOOWWW ${input}!!!`;
